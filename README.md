@@ -10,3 +10,6 @@ goto build phases > [CP] Copy Pods Resourses > Output Files
 Delete all the Output files
 
 yarn start
+
+To run the test cases
+yarn test
