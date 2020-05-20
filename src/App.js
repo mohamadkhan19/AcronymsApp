@@ -3,10 +3,10 @@ import AcronymApp from './AcronymApp';
 import SplashScreen from 'react-native-splash-screen';
 
 const App = () => {
-  // useEffect(() => {
-  //   SplashScreen.hide();
-  //   return () => {};
-  // }, []);
+  useEffect(() => {
+    SplashScreen.hide();
+    return () => {};
+  }, []);
   return <AcronymApp />;
 };
 
