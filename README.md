@@ -13,3 +13,4 @@ yarn start
 
 To run the test cases
 yarn test
+yarn jest:coverage
